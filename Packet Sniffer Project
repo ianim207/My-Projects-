@@ -1,0 +1,6 @@
+sudo apt install wireshark
+sudo apt install tcpdump
+sudo usermod -aG wireshark $USER
+wireshark
+sudo tcpdump -i <interface> -w capture.pcap
+tcpdump -r capture.pcap
