@@ -2,5 +2,6 @@ sudo apt install wireshark
 sudo apt install tcpdump
 sudo usermod -aG wireshark $USER
 wireshark
-sudo tcpdump -i <interface> -w capture.pcap
+![VirtualBox_Ubuntu VM 24 04 LTS_01_01_2025_19_29_49](https://github.com/user-attachments/assets/d7092257-3908-4dea-8ede-78fee2b7df51)sudo tcpdump -i <interface> -w capture.pcap
 tcpdump -r capture.pcap
+
